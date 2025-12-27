@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>саженцы, посадочный материал, плодопитомник, ОКБ СибНИИСХоз</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="w-100">
+        <div class="p-4  h-25 bg-success justify-content-between align-items-center row">
+            <img src="./logo.png" alt="logo" id="logo">
+            <button type="button" class="btn btn-success dropdown-toggle col-md" data-bs-toggle="dropdown"
+                aria-expanded="false">Контакты</button>
+            <button type="button" class="btn btn-success dropdown-toggle col-md" data-bs-toggle="dropdown"
+                aria-expanded="false">Гостевая книга</button>
+            <button type="button" class="btn btn-success dropdown-toggle col-md" data-bs-toggle="dropdown"
+                aria-expanded="false">Цены</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">цены</a></li>
+                <li><a class="dropdown-item" href="#">гости</a></li>
+                <li><a class="dropdown-item" href="#">контакты</a></li>
+            </ul>
+
+
+
+            <button type="button" class="btn btn-success col-md text-warning" data-bs-toggle="modal"
+                data-bs-target="#signupModal">Регистрация</button>
+            <button type="button" class="btn btn-success col-md text-warning" data-bs-toggle="modal"
+                data-bs-target="#signinModal">Вход</button>
+            <!-- Modal -->
+            <div class="modal fade" id="signinModal" tabindex="-1" aria-labelledby="signinModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content popup bg-success p-5 rounded" style="color:white">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="signinModalLabel">Вход</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" class="d-flex flex-column p-2">
+                                <label class="m-2">Логин: <input type="text"></label>
+                                <label>Пароль: <input type="password"></label>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                            <button type="button" class="btn btn-primary">Вход</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content popup bg-success p-5 rounded" style="color:white">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="signupModalLabel">Вход</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" class="d-flex flex-column p-2 align-items-center">
+                                <label class="m-2">Логин: <input type="text"></label>
+                                <label class="m-2">Почта: <input type="email"></label>
+                                <label>Пароль: <input type="password"></label>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                            <button type="button" class="btn btn-primary">Вход</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="d-flex flex-column w-100 p-3  align-items-center"> <input class="w-50" type="search"
+            id="search" placeholder="Поиск...">
+        <div class="form-check form-switch">
+  <input class="form-check-input my-2" type="checkbox" role="switch" id="switchCheckChecked" checked>
+  <label class="form-check-label" for="switchCheckChecked">искать в Kvels</label>
+</div>
+<div cl
+    </div>
+    <div class="row">
+        <aside class="p-5 w-25 h-auto  col-md" style="background-color: white;">
+            <img style="margin-block: 2em;" width="350px" src="../Приложение/apple.jpg" alt="">
+            <img style="margin-block: 2em;" width="350px" src="../Приложение/smorodina.jpg" alt="">
+        </aside>
+        <main class="bg-body col-lg-8">
+            <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner p-4">
+    <div class="carousel-item active">
+      <img style="height: 75vh; width: auto;"  src="../Приложение/winter-privivka-abrikos1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 75vh; width: auto;" " src="../Приложение/gortenzia2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img style="height: 75vh; width: auto;" src="../Приложение/Kalina-Bul-donezh.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            <div class="p-4">
+                <p style="text-align:justify;"><span style="font-size:16px;"><span
+                            style="color:#008000;"><strong>Сибирский научно-исследовательский институт сельского
+                                хозяйства</strong>&nbsp;(<strong>СибНИИСХоз</strong>)</span>. Полное название —
+                        Государственное научное учреждение Сибирский научно-исследовательский институт сельского
+                        хозяйства Сибирского отделения&nbsp;Российской академии сельскохозяйственных наук.
+                        Местонахождение город Омск.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Институт ведёт свою историю от опытного
+                        хутора Сибирского казачьего войска, основанного в 1828 году, первого в Сибири и одного из первых
+                        в России опытного хозяйства. Указ о создании Омского опытного хутора
+                        издал&nbsp;И.&nbsp;А.&nbsp;Вельяминов, генерал-губернатор Западной Сибири и почётный член
+                        Московского общества сельского хозяйства. Указом выделяется 20&nbsp;десятин&nbsp;земли с
+                        различными почвами для опытов; цель создания&nbsp;—&nbsp;<em>содействие распространению начал
+                            земледелия в поселениях линейного казачьего войска</em>.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Активное участие в развитии опытного
+                        хозяйства принимал&nbsp;М.&nbsp;Г.&nbsp;Павлов.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">В 1933&nbsp;г. на базе Омского опытного
+                        хутора был создан Сибирский научно-исследовательский институт сельского хозяйства.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Одно из основных направлений деятельности
+                        института&nbsp;— селекция&nbsp;зерновых,кормовых культур,а так-же производством посадочного
+                        материала плодово-ягодных,декоративных культур,рассады земляники и многолетних цветов.
+                        Достижения в данной области&nbsp;— селекционерами института создано более двухсот сортов
+                        различных культур, которые характеризуются высоким генетическим потенциалом продуктивности,
+                        скороспелостью, устойчивостью к стрессам и способны давать продукцию хорошего качества.</span>
+                </p>
+                <p style="text-align:justify;"><span style="font-size:16px;">В 1970 году при СибНИИСХозе создан
+                        Западно-Сибирский селекционный центр.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Одним из подразделений СибНИИСХоза является
+                        сад.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Первые посадки плодово-ягодных деревьев и
+                        кустарников были произведены весной 1945 года.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">В 70-х годах прошлого века были посажены
+                        первые маточники земляники садовой крупноплодной.Первый сорт завезенный в Россию назывался
+                        Виктория,поэтому в быту садоводы так и называют эту удивительную ягоду. С появлением первых
+                        насаждений&nbsp; руководству и научному подразделению сада, была поставлена задача-это изучение
+                        морфологии и зимостойкости сортов в наших Сибирских условиях с целью выделения более
+                        перспективных культур в нашей зоне рискованного земледелия.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">На сегодняшний день продолжается работа по
+                        изучению новых сортов более 40 культур.</span></p>
+                <p style="text-align:justify;"><span style="font-size:16px;">Расширяется работа по изучению новых
+                        перспективных направлений садоводства, таких как цветоводство,размножение и изучение
+                        декоративных культур,хвойные культуры разных форм,изучения новых технологий полива (капельный
+                        полив,автоматизация полива,внесение удобрений с поливом и т.д.),изучение силы роста культур с
+                        закрытой корневой системой,новые тонкости технологий размножения культур.</span></p>
+            </div>
+        </main>
+    </div>
+
+    <footer class="p-5 w-100 bg-success justify-content-between align-items-center row text-light">
+        <div class="col">
+            <p>© 2025 сад СибНИИСХоза</p>
+        </div>
+
+        <div class="col">
+
+            <p> Консультант 48-26-90</p>
+            <p>ОПТ: 8-913-644-10-56 Андрей</p>
+            <p>a-novitskyi@mail.ru г. Омск, Пр. Королева, 28 А, САД СибНИИСХоза,Красноярский тракт 20в</p>
+        </div>
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
